@@ -1,0 +1,11 @@
+pandas
+openpyxl 
+numpy 
+matplotlib 
+seaborn 
+flask-admin 
+ydata-profiling 
+mlflow
+scikit-learn
+xgboost
+optuna
