@@ -1,0 +1,18 @@
+.
+├── config
+├── dags
+├── data
+├── logs
+│   ├── dag_processor_manager
+│   └── scheduler
+├── mlflow
+├── mlruns
+│   └── models
+├── plugins
+├── static
+├── tests
+└── utils
+
+13 directories
+
+#cmd tree -d -L 2 > tree.txt
