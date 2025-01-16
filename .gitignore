@@ -1,33 +1,22 @@
-# Ignore sensitive configuration files that should not be tracked
 config/secrets.env
-
-# Ignore directories and files generated during runtime
-logs/                # Airflow logs
-mlruns/              # MLflow experiment tracking data
-data/input/          # Input data files
-data/output/         # Output data files
-dags/__pycache__/    # Compiled Python cache files for DAGs
-plugins/__pycache__/ # Compiled Python cache files for plugins
-utils/__pycache__/   # Compiled Python cache files for utilities
-tests/__pycache__/   # Compiled Python cache files for tests
-
-# Ignore Python temporary files
-*.pyc                # Compiled Python files
-*.pyo                # Optimized Python files
-*.log                # Log files
-*.tmp                # Temporary files
-*.swp                # Swap files created by some editors
-*.bak                # Backup files
-*.orig               # Original files created during merges
-
-# Ignore system-specific files
-.DS_Store            # macOS specific system files
-Thumbs.db            # Windows specific system files
-
-# Ignore files and directories created by IDEs and editors
-.vscode/             # VS Code workspace settings
-.idea/               # IntelliJ IDEA project files
-*.iml                # IntelliJ IDEA module files
-
-# Ignore user-specific environment configuration files
-.env                 # Local environment variables
+logs/
+mlruns/
+data/input/
+data/output/
+dags/__pycache__/
+plugins/__pycache__/
+utils/__pycache__/
+tests/__pycache__/
+*.pyc
+*.pyo
+*.log
+*.tmp
+*.swp
+*.bak
+*.orig
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+.env
